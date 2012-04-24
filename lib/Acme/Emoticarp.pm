@@ -1,7 +1,7 @@
 ## no critic (RequireUseStrict)
 package Acme::Emoticarp;
 {
-  $Acme::Emoticarp::VERSION = '0.01';
+  $Acme::Emoticarp::VERSION = '0.02';
 }
 
 ## use critic (RequireUseStrict)
@@ -34,13 +34,15 @@ sub import {
 
 =pod
 
+=encoding utf-8
+
 =head1 NAME
 
 Acme::Emoticarp - Carp and cluck in a more fun way.
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
